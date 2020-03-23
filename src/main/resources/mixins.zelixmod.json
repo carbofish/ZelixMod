@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "zelix.cc.injection.mixins",
+  "refmap": "mixins.iunix.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinAbstractClientPlayer",
+    "MixinBlock",
+    "MixinC03PacketPlayer",
+    "MixinC09PacketHeldItemChange",
+    "MixinEntity",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+	"MixinGui",
+	"MixinGuiChat",
+	"MixinGuiConnecting",
+	"MixinGuiIngame",
+	"MixinGuiScreen",
+	"MixinKeyBinding",
+	"MixinMinecraft",
+	"MixinNetworkManager",
+	"MixinPlayerControllerMP",
+	"MixinRenderer",
+	"MixinRenderManager",
+	"MixinS08PacketPlayerPosLook",
+	"MixinS12PacketEntityVelocity",
+	"MixinS27PacketExplosion",
+	"MixinItemRenderer",
+	"MixinGuiMainMenu"
+  ]
+}
